@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'FontGame';
+    src: url('font/Font3.ttf') format('truetype');
+    font-style: 12;
+    font-weight: 12;
+  }
+
+#canvas1{
+    position: absolute;
+    border: 5px solid rgb(180, 177, 177);
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+}
+#player, #layer1, #layer2, #layer3, #layer4, #layer5, #enemy_fly, #enemy_plant, #enemy_spider_big, #fire, #collisionAnimation{
+    display: none;
+}
+
+.information{
+    width: 40%;
+    transform: translate(5%, 0%);
+}
+
+.wordsBasic{
+    color: aliceblue;
+    font-family: "FontGame";
+}
+
+.title{
+    text-align: center;
+    font-size: 250%;
+}
+
+.informationGame{
+    text-align: center;
+    font-size: 110%;
+    margin-bottom: 10%;
+}
+
+.extraData{
+    font-size: 100%;
+    text-align: center;
+}
+
+.me{
+    font-size: 180%;
+}
+
+.contacto{
+    font-size: 100%;
+    line-height: 2
+}
+
+
+
+#score{
+    margin-bottom: 10%;
+}
+
